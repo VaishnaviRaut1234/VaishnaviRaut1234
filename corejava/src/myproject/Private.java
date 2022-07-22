@@ -1,0 +1,20 @@
+package myproject;
+
+class ABC{
+private double num = 100;
+private int square(int a)
+{
+	return a*a;
+}
+}
+public class Private {
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ABC obj = new ABC();
+		System.out.println(obj.num);
+		System.out.println(obj.square(10));
+	}
+
+}

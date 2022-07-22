@@ -13,7 +13,7 @@ public class client
 		student student = new student();
 		
 		student.setStudentid(100);
-		student.setName("Sachin");
+		student.setName("Vaishnavi");
 		service.addstudent(student);
 		
 		student = service.findstudentbyId(100);
@@ -21,7 +21,7 @@ public class client
 		System.out.println("Name: "+student.getName());
 		
 		student = service.findstudentbyId(100);
-		student.setName("Sachin");
+		student.setName("Vaishnavi");
 		service.updatestudent(student);
 		
 		student = service.findstudentbyId(100);
